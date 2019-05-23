@@ -64,7 +64,7 @@ public class BinarySearchTree {
 					value2 > binarySearchTreeNode.GetBinarySearchTreeNodeData()) {
 				binarySearchTreeNode = binarySearchTreeNode.GetBinarySearchTreeNodeRight();
 			}else {
-				return binarySearchTreeNode;
+				break;
 			}
 		}
 		return binarySearchTreeNode;
